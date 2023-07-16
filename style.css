@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Playfair:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lugrasimo&family=Passion+One:wght@400;700;900&family=Playfair:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root{
+    --cor1:#C0935D;
+    --corh1: #614630;
+    --corh2:#755c36;
+}
+  
+body{
+    background-color: var(--cor1);
+    background-image:url(midias/fundo-grunge.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+header{
+    display: flex;
+    background-image:radial-gradient(#E4D0BB,#a38a6f);
+    padding: 200px;
+    justify-content: center;
+    color: var(--corh1);
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    font-size: 2vw;
+    white-space: nowrap;
+}
+
+main{
+    background-image:url(midias/trindade.jpg);
+    margin:auto;
+    max-width: 1000px;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    text-align: justify;
+    border-radius: 0px 0px 10px 10px;
+    margin-bottom: 300px;
+    padding: 10px;
+    font-family:'Lugrasimo', cursive;
+}
+
+main h1{
+    color: var(--corh1);
+    font-size: 2.5vw;
+}
+
+h2{
+    color:var(--corh2);
+    margin-top: 80px;
+    font-size: 2vw;
+}
+
+h3{
+    font-size: 1.7vw;
+    margin: 10px 0;
+}
+
+ .p{
+    color:black;
+    font-size: 1.5vw;
+
+}
+
+.citação{
+    color: rgb(128, 126, 126);
+    font-size: 1.5vw;
+    margin: 5px 0;
+}
+
+aside{
+    position: relative;
+    background-color: var(--corh2);
+    padding-bottom: 500px;
+    margin:10px -10px ;
+    text-align: center;
+}
+
+iframe{
+    position: absolute;
+    left: 10%;
+}
+
