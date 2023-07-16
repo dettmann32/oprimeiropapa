@@ -36,11 +36,13 @@ header{
     color: var(--corh1);
     font-family: 'Roboto Slab', serif;
     font-weight: 700;
-    font-size: 3vw;
+    font-size: 1.7vw;
     white-space: nowrap;
     box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.658);
 }
-
+header div{
+    font-size: 2.5vw;
+}
 main{
     background-image:url(midias/trindade.jpg);
     margin:auto;
